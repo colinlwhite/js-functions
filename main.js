@@ -15,3 +15,25 @@ const lastName = 'White';
 //greetingElement.innerHTML = 'Hello my name is ' + firstName + ' ' + lastName;
 
 greetingElement.innerHTML = `Hello my name is ${firstName} ${lastName}`;
+
+
+
+// OBJECT SHORTHAND NOTATION 
+
+let name = 'callan'; 
+let age = '1000000000000';
+
+// let person = {
+//     name: name,
+//     age: age
+// };
+
+let person = {
+    name,
+    age
+};
+
+console.log('person: ', person.name);
+
+// 
+
