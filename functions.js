@@ -30,7 +30,7 @@ const bearSticks = nuggetizer('bear');
 console.log(nomnom('colin', bearSticks)); // colin devoured bear sticks 
 
 
-// Function numberAdder that takes in a number and returns the number plus 3. so input=22 output = 25
+// Function numberAdder that takes in a number and returns the number plus 3. so input = 22 output = 25
 // ES5 
 
 function numberAdder(numberOne) {
